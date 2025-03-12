@@ -4,13 +4,10 @@ This project uses Amazon Rekognition, S3, and AWS CLI to detect and display labe
 
 🚀 Features :
 
-Detects objects, scenes, and concepts using Amazon Rekognition.
-
-Draws bounding boxes on detected objects with labels and confidence scores.
-
-Uses AWS S3 for image storage and retrieval.
-
-Visualizes image analysis results.
+~ Detects objects, scenes, and concepts using Amazon Rekognition.
+~ Draws bounding boxes on detected objects with labels and confidence scores.
+~ Uses AWS S3 for image storage and retrieval.
+~ Visualizes image analysis results.
 
 📂 Project Structure :
 
