@@ -22,7 +22,7 @@ Image-labels-generator/
 
 ├── scripts/             # Python scripts for Rekognition and visualization
 
-└── README.md            # Project documentation (this file)
+|── README.md            # Project documentation (this file)
 
 🛠️ Prerequisites :
 
