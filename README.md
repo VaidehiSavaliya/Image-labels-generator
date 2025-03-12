@@ -15,6 +15,7 @@ This project uses Amazon Rekognition, S3, and AWS CLI to detect and display labe
 📂 Project Structure :
 
 Image-labels-generator/
+
 ├── images/              # Input images for analysis
 
 ├── output/              # Processed images with bounding boxes
