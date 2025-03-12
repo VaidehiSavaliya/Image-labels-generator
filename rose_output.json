@@ -1,0 +1,85 @@
+{
+    "Labels": [
+        {
+            "Name": "Flower",
+            "Confidence": 100.0,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Plant"
+                }
+            ],
+            "Aliases": [
+                {
+                    "Name": "Blossom"
+                }
+            ],
+            "Categories": [
+                {
+                    "Name": "Plants and Flowers"
+                }
+            ]
+        },
+        {
+            "Name": "Plant",
+            "Confidence": 100.0,
+            "Instances": [],
+            "Parents": [],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Plants and Flowers"
+                }
+            ]
+        },
+        {
+            "Name": "Rose",
+            "Confidence": 100.0,
+            "Instances": [
+                {
+                    "BoundingBox": {
+                        "Width": 0.826275110244751,
+                        "Height": 0.4494190514087677,
+                        "Left": 0.05061597004532814,
+                        "Top": 0.15353916585445404
+                    },
+                    "Confidence": 98.12179565429688
+                }
+            ],
+            "Parents": [
+                {
+                    "Name": "Flower"
+                },
+                {
+                    "Name": "Plant"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Plants and Flowers"
+                }
+            ]
+        },
+        {
+            "Name": "Petal",
+            "Confidence": 73.74943542480469,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Flower"
+                },
+                {
+                    "Name": "Plant"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Plants and Flowers"
+                }
+            ]
+        }
+    ],
+    "LabelModelVersion": "3.0"
+}

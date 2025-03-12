@@ -1,0 +1,250 @@
+{
+    "Labels": [
+        {
+            "Name": "Head",
+            "Confidence": 99.98944091796875,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Person"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Person Description"
+                }
+            ]
+        },
+        {
+            "Name": "Person",
+            "Confidence": 99.98944091796875,
+            "Instances": [],
+            "Parents": [],
+            "Aliases": [
+                {
+                    "Name": "Human"
+                }
+            ],
+            "Categories": [
+                {
+                    "Name": "Person Description"
+                }
+            ]
+        },
+        {
+            "Name": "Face",
+            "Confidence": 99.98613739013672,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Head"
+                },
+                {
+                    "Name": "Person"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Person Description"
+                }
+            ]
+        },
+        {
+            "Name": "Happy",
+            "Confidence": 99.82866668701172,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Face"
+                },
+                {
+                    "Name": "Head"
+                },
+                {
+                    "Name": "Person"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Expressions and Emotions"
+                }
+            ]
+        },
+        {
+            "Name": "Smile",
+            "Confidence": 99.82866668701172,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Face"
+                },
+                {
+                    "Name": "Happy"
+                },
+                {
+                    "Name": "Head"
+                },
+                {
+                    "Name": "Person"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Expressions and Emotions"
+                }
+            ]
+        },
+        {
+            "Name": "Photography",
+            "Confidence": 99.703857421875,
+            "Instances": [],
+            "Parents": [],
+            "Aliases": [
+                {
+                    "Name": "Photo"
+                }
+            ],
+            "Categories": [
+                {
+                    "Name": "Hobbies and Interests"
+                }
+            ]
+        },
+        {
+            "Name": "Portrait",
+            "Confidence": 99.703857421875,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Face"
+                },
+                {
+                    "Name": "Head"
+                },
+                {
+                    "Name": "Person"
+                },
+                {
+                    "Name": "Photography"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Hobbies and Interests"
+                }
+            ]
+        },
+        {
+            "Name": "Black Hair",
+            "Confidence": 99.26263427734375,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Hair"
+                },
+                {
+                    "Name": "Person"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Beauty and Personal Care"
+                }
+            ]
+        },
+        {
+            "Name": "Hair",
+            "Confidence": 99.26263427734375,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Person"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Beauty and Personal Care"
+                }
+            ]
+        },
+        {
+            "Name": "Clothing",
+            "Confidence": 61.97072982788086,
+            "Instances": [],
+            "Parents": [],
+            "Aliases": [
+                {
+                    "Name": "Apparel"
+                }
+            ],
+            "Categories": [
+                {
+                    "Name": "Apparel and Accessories"
+                }
+            ]
+        },
+        {
+            "Name": "T-Shirt",
+            "Confidence": 61.97072982788086,
+            "Instances": [
+                {
+                    "BoundingBox": {
+                        "Width": 0.625565230846405,
+                        "Height": 0.3675021231174469,
+                        "Left": 0.22054791450500488,
+                        "Top": 0.6305469274520874
+                    },
+                    "Confidence": 61.97072982788086
+                }
+            ],
+            "Parents": [
+                {
+                    "Name": "Clothing"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Apparel and Accessories"
+                }
+            ]
+        },
+        {
+            "Name": "Laughing",
+            "Confidence": 55.482601165771484,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Face"
+                },
+                {
+                    "Name": "Happy"
+                },
+                {
+                    "Name": "Head"
+                },
+                {
+                    "Name": "Person"
+                }
+            ],
+            "Aliases": [
+                {
+                    "Name": "Laugh"
+                }
+            ],
+            "Categories": [
+                {
+                    "Name": "Expressions and Emotions"
+                }
+            ]
+        }
+    ],
+    "LabelModelVersion": "3.0"
+}

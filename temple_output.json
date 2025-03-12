@@ -1,0 +1,74 @@
+{
+    "Labels": [
+        {
+            "Name": "Architecture",
+            "Confidence": 99.99872589111328,
+            "Instances": [],
+            "Parents": [],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Buildings and Architecture"
+                }
+            ]
+        },
+        {
+            "Name": "Building",
+            "Confidence": 99.99872589111328,
+            "Instances": [
+                {
+                    "BoundingBox": {
+                        "Width": 0.8534971475601196,
+                        "Height": 0.9327684044837952,
+                        "Left": 0.1415894627571106,
+                        "Top": 0.02691498026251793
+                    },
+                    "Confidence": 99.99872589111328
+                }
+            ],
+            "Parents": [
+                {
+                    "Name": "Architecture"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Buildings and Architecture"
+                }
+            ]
+        },
+        {
+            "Name": "Landmark",
+            "Confidence": 80.42566680908203,
+            "Instances": [],
+            "Parents": [],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Popular Landmarks"
+                }
+            ]
+        },
+        {
+            "Name": "Temple",
+            "Confidence": 55.08810806274414,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Architecture"
+                },
+                {
+                    "Name": "Building"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Religion"
+                }
+            ]
+        }
+    ],
+    "LabelModelVersion": "3.0"
+}
